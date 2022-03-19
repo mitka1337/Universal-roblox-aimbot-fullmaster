@@ -1,7 +1,7 @@
 if not syn or not protectgui then
     getgenv().protectgui = function()end
 end
-local Library = loadstring(game:HttpGet('https://lindseyhost.com/UI/LinoriaLib.lua'))()
+local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/mitka1337/lib-not-my-lib-/main/lib.lua'))()
 Library:SetWatermark("github.com/mitka1337")
 local Camera = workspace.CurrentCamera
 local Players = game:GetService("Players")
